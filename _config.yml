@@ -42,7 +42,7 @@ urlimg: 'https://melindamongar-commits.github.io/EMP5126Website/images/'
 
 
 # Logo size is 600x80 pixels
-logo: "logo.png"
+logo: "EMP Logo.jpg"
 
 # Plugins
 plugins:
@@ -112,7 +112,7 @@ defaults:
       show_meta: false 	# Hide metadata for all pages
       # sidebar:    		# Possible values › left, right › by default there will be no sidebar
       comments: false
-      author: phlow     # Default author for pages
+      author: EMP     # Default author for pages
   -
     scope:
       path: ''
@@ -121,7 +121,7 @@ defaults:
       show_meta: true   # Show metadata for all posts
       # sidebar:        # Possible values › left, right › by default there will be no sidebar
       comments: false
-      author: phlow     # Default author for posts
+      author: EMP     # Default author for posts
 
 
 
@@ -192,8 +192,8 @@ og_type                              : 'website'
 #
 
 socialmedia:
-    twitter   : phlow
-    facebook  : phlow.media
+    twitter   : 
+    facebook  : 
 
 
 #        ____  _
