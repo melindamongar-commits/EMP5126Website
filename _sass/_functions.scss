@@ -58,23 +58,19 @@ $modules: (
     }
 
     @else if unit($value)=="em" {
-      $unitless-value: calc($value / 1em);
-      @return $unitless-value;
+      @return $value / 1em;
     }
 
     @else if unit($value)=="px" {
-      $unitless-value: calc($value / 1px);
-      @return $unitless-value;
+      @return $value / 1px;
     }
 
     @else if unit($value)=="pt" {
-      $unitless-value: calc($value / 1pt);
-      @return $unitless-value;
+      @return $value / 1pt;
     }
     
     @else if unit($value)=="rem" {
-      $unitless-value: calc($value / 1rem);
-      @return $unitless-value;
+      @return $value / 1rem;
     }
   }
 
