@@ -58,19 +58,23 @@ $modules: (
     }
 
     @else if unit($value)=="em" {
-      @return calc($value / 1em);
+      $unitless-value: calc($value / 1em);
+      @return $unitless-value;
     }
 
     @else if unit($value)=="px" {
-      @return calc($value / 1px);
+      $unitless-value: calc($value / 1px);
+      @return $unitless-value;
     }
 
     @else if unit($value)=="pt" {
-      @return calc($value / 1pt);
+      $unitless-value: calc($value / 1pt);
+      @return $unitless-value;
     }
     
     @else if unit($value)=="rem" {
-      @return calc($value / 1rem);
+      $unitless-value: calc($value / 1rem);
+      @return $unitless-value;
     }
   }
 
