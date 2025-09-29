@@ -1,11 +1,10 @@
 # Site settings
-title:
+title: "Park Hill South Robotics - EMP 5126"
 email:
-description: > # this means to ignore newlines until "baseurl:"
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site
+description: "We are a high school FIRST robotics team out of Riverside, MO"
+baseurl: "" 
+url: "" 
 
-twitter_username:
 github_username:
 
 # Build settings
