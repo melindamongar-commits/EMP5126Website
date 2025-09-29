@@ -68,6 +68,10 @@ $modules: (
     @else if unit($value)=="pt" {
       @return calc($value / 1pt);
     }
+       
+    @else if unit($value)=="rem" {
+      @return calc($value / 1rem);
+    }
   }
 
   @else {
