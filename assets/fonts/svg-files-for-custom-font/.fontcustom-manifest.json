@@ -213,6 +213,10 @@
     "youtube": {
       "codepoint": 61706,
       "source": "./youtube.svg"
+    },
+    "onshape": {
+      "codepoint": 61731,
+      "source": "./onshape.svg"
     }
   },
   "options": {
