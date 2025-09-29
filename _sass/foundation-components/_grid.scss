@@ -4,6 +4,7 @@
 
 @import "global";
 @import "../functions";
+@use "sass:math";
 
 //
 // @variables
@@ -33,7 +34,7 @@ $last-child-float: $opposite-direction !default;
   $unitless-column: strip-unit($colNumber);
   $unitless-total_columns: strip-unit($totalColumns);
 
-  @return calc(#{$unitless-column} / #{$unitless-total_columns}) * 100;
+  @return math.percentage(math.div($unitless-column, $unitless-total_columns));
 }
 
 //
