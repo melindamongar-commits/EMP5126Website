@@ -1,8 +1,8 @@
-- title: "Home   "
+- title: "Home..."
   url: "/"
   side: left
 
-- title: "Sponsors   "
+- title: "Sponsors..."
   url: "/getting-started/"
   side: left
 
@@ -59,7 +59,7 @@
 #   - title: "Roadmap"
 #     url: "/roadmap/"
 
-- title: "Blog   "
+- title: "Blog..."
   url: "/blog/"
   side: left
   dropdown:
