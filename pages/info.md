@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "About"
-subheadline: "Mission"
+subheadline: "Team 5126 - Park Hill South Robotics"
 teaser: "Help drive STEM education at Park Hill and surrounding community"
 permalink: "/info/"
 header:
