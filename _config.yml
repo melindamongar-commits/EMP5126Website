@@ -5,6 +5,7 @@ description: "We are a high school FIRST robotics team out of Riverside, MO"
 baseurl: "" 
 url: "" 
 
+facebook_username:
 github_username:
 
 # Build settings
