@@ -3,6 +3,7 @@
 // Licensed under MIT Open Source
 
 @import "global";
+@import "../functions";
 
 //
 // @variables
@@ -31,7 +32,8 @@ $last-child-float: $opposite-direction !default;
 @function grid-calc($colNumber, $totalColumns) {
   $unitless-column: strip-unit($colNumber);
   $unitless-total_columns: strip-unit($totalColumns);
-  @return percentage(#{calc(#{$unitless-column} / #{$unitless-total_columns})});
+
+  @return calc(#{$unitless-column} / #{$unitless-total_columns}) * 100;
 }
 
 //
