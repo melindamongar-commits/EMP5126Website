@@ -598,7 +598,8 @@ $select-hover-bg-color: scale-color($select-bg-color, $lightness: -3%) !default;
     /* Add height value for select elements to match text input height */
     select {
       @include form-select;
-      height: ($input-font-size + ($form-spacing * 1.5) - rem-calc(1));
+      $form_spacing_adj: calc($form-spacing * 1.5);
+      height: calc($input-font-size + $form_spacing_adj - rem-calc(1));
     }
 
     /* Adjust margin for form elements below */
