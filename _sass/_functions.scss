@@ -117,7 +117,7 @@ $modules: (
   $unitless-value: strip-unit($value);
   $unitless-base-value: strip-unit($base-value);
 
-  $value: $unitless-value / $unitless-base-value * 1rem ;
+  $value: calc(#{$unitless-value} / #{$unitless-base-value} * 1rem ) ;
 
   @if ($value ==0rem) {
     $value: 0;
