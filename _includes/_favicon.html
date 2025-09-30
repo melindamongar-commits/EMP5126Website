@@ -4,4 +4,6 @@
 *
 {% endcomment %}
 {% comment %} EMP Favicon: {% endcomment %}
-	{% if site.favicon-32x32 %}<link rel="icon" type='image/x-icon' sizes="32x32" href="{{ 'img/' | absolute_url }}{{ site.favicon-32x32 }}">{% endif %}
+
+	<link rel="icon" type='image/x-icon' sizes="32x32" href="{{ '/img/' }}{{ site.favicon-32x32 }}">
+	<link rel="icon" type='image/x-icon' sizes="192x192" href="{{ '/img/' }}{{ site.touch-icon-192x192 }}">
